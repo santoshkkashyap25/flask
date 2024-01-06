@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Users</title>
+</head>
+<body>
+{% if user%}
+<h1>Hello {{user}}</h1>
+{% else %}
+<h1>Please Log in.</h1>
+{% endif %}
+</body>
+</html>
